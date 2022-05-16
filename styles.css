@@ -1,0 +1,60 @@
+
+
+header{
+    border: 1px solid red;
+    height: 10vh;
+
+}
+
+figure{
+    border: 1px solid blue;
+    height: 20vh;
+}
+
+.section-title{
+    flex-basis: 20%;
+    border-right-color: blue;
+    border-right-width: 4px;
+    border-right-style: solid;
+
+
+}
+
+.section-content{
+    flex-basis: 80%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.smallpic{
+    flex-basis: 50%;
+    border: 1px solid pink
+}
+
+#aboutMe{
+    border: 1px solid green;
+    height: 30vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#Work{
+    border: 1px solid yellow;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+#contactMe{
+    border: 1px solid purple;
+    height:30vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+#firstpic{
+    border: 1px solid pink;
+    height: 60vh;
+    flex-basis: 100%;
+    
+}
+
+
