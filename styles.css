@@ -1,21 +1,53 @@
 
-
 header{
-    border: 1px solid red;
-    height: 10vh;
+    background-image: url(https://cdn.pixabay.com/photo/2021/01/11/21/23/dots-5909731_1280.png);
+    justify-content: space-around;
+    height: 15vh;
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
+}
+header h1 {
+    
+    font-size: 8vh;
+    
+}
+header h2{
+    font-size: 5vh;
+    
+}
+header nav ul li{
+    display: inline;
+    font-size: 3vh;
+    
 }
 
 figure{
-    border: 1px solid blue;
-    height: 20vh;
+    display: flex;
+    height: 15vh;
+    justify-content: center;
+}
+
+    
+.comingsoon{
+    background-color: grey;
+    font-family: cursive;    
+}
+.coolpic{
+    background-image: url(https://cdn.pixabay.com/photo/2016/11/18/12/55/light-1834289_1280.jpg);
 }
 
 .section-title{
+    background-color:white;
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 5vh;
     flex-basis: 20%;
     border-right-color: blue;
     border-right-width: 4px;
     border-right-style: solid;
+    margin-bottom: .75%;
+    margin-top: .75%;
 
 
 }
@@ -24,36 +56,42 @@ figure{
     flex-basis: 80%;
     display: flex;
     flex-wrap: wrap;
+    
 
 }
 .smallpic{
+    height: 20vh;
     flex-basis: 50%;
-    border: 1px solid pink
+    background-color: grey;
 }
 
 #aboutMe{
-    border: 1px solid green;
+    
     height: 30vh;
     display: flex;
     flex-wrap: wrap;
+    text-align: right;
 }
 
 #Work{
-    border: 1px solid yellow;
+   
     height: 100vh;
     display: flex;
     flex-wrap: wrap;
+    text-align: right;
 }
 #contactMe{
     border: 1px solid purple;
     height:30vh;
     display: flex;
     flex-wrap: wrap;
+    text-align: right;
 }
 #firstpic{
-    border: 1px solid pink;
+    
     height: 60vh;
     flex-basis: 100%;
+    background-image: url(./images/firstpic.png);
     
 }
 
