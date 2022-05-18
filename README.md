@@ -1,4 +1,4 @@
-# <PortfoliofromScratch>
+# PortfoliofromScratch
 
 ## Description
 I was tasked with creating a portfolio webpage using concepts from html and css. The website must be mobile responsive and contain links to my work. 
